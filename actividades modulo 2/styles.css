@@ -26,6 +26,15 @@
         display: inline-block;
         background-color: transparent;
     }
+
+    h3 {
+        display: inline-block;
+    margin-left: 10px;
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    }
     
     #logo {
         margin-left: 4%;
