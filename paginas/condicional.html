@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional JS</title>
+</head>
+<h1>
+    Condicional JS
+</h1>
+
+<body>
+    <script>
+    /*
+    let edad = Number(prompt("Ingresa tu edad: "));
+    console.log( typeof(edad) );
+    if ( edad <=10 ) {      
+    console.log("Eres un niño porque tienes: ", edad + " años");  } 
+    else if (edad >10 && edad < 18) {console.log("Eres un adolescente porque tienes: ", edad + " años");  } 
+    else if (edad >= 18 ) {console.log("Eres un adulto joven");  } 
+    else {console.log("Dato no valido"); } 
+    */
+   let diaUser = prompt( "Ingrse un dia de la semana: domingo = 0, lunes = 1, martes = 2, miercoles = 3, jueves = 4, vienes = 5 sabado = 6");
+   let dia = Number(diaUser);
+   console.log(typeof(dia), dia);
+
+   if( dia == 0) {
+       alert("hoy es domingo");
+   } else if( dia == 1){
+       alert("hoy es lunes");
+   } else if( dia == 2){
+       alert("hoy es martes");
+   } else if( dia == 3){
+       alert("hoy es miercoles")
+   }else if( dia == 4){
+       alert("hoy es jueves")
+   } else if( dia >= 5 && dia <= 6){
+       alert("hoy es fin de semana")
+   } else {
+       alert("por favor introduce un numero entre 0 y 6");
+   }
+
+
+
+    </script>
+</body>
+</html>
