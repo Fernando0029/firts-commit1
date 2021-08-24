@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones JS</title>
+</head>
+<h1>Funciones JS</h1>
+<body>
+    
+    <script>
+        // Funciones normales Js
+        //declaramos / creamos nuestra función
+        
+
+        //Arrow function / función de flecha
+        /*const arroeFuntion = () =>{
+            alert("hola desde un arrow function");
+        }*/
+
+        //function Con Parametros
+        /*const saludar = (saludo) =>{
+            console.log( + "chicos!");
+        }*/
+
+        // parametro cuando creamos la función
+        /*const despedida = ( nombre = 'Ferras')=>{
+            console.log("hasta proto " + nombre);
+        }
+        
+        //argumento cuando llamamos a la funcion
+        despedida ("Juan");
+
+        //Lamar a nuestra función
+        //miPrimerFuncion(); */
+
+        // función que retorna un valor 
+       /* const saludar2 = ( nombre ) =>{
+            return "Hasta pronto " + nombre;
+        }
+        
+        saludar ("hola");
+        console.log(saludar2("Adios")); */
+
+        // función que retorna un valor 
+        const saludar2 = (  Nombre, edad, estado) =>{
+            return `hola mi nombre es ${ nombre } y tengo ${ edad } años y soy de ${ estado }`
+        }
+        
+        saludar("hola");
+        console.log(saludar2("Juan Fernando", 17, "Campeche"));
+
+    </script>
+</body>
+</html>
