@@ -117,7 +117,7 @@
     }
     
 
-    #fin-pag {
+    #Termine {
         width: 100%;
         height: 100px;
         background-color: #000;
@@ -155,38 +155,11 @@
         text-decoration: none;
     }
 
-    #energia-eolica {
+    .energia {
         background-color: #fcfcfc;
     }
 
-    #energia-solar {
-        background-color:#fcfcfc;
-    }
-
-    #energia-mareomotriz {
-        background-color: #fcfcfc;
-    }
-
-    #energia-undimotriz {
-        background-color: #fcfcfc;
-    }
-
-    #energia-petroleo {
-        background-color: #fcfcfc;
-    }
-
-    #energia-carbon {
-        background-color: #fcfcfc;
-    }
-
-    #energia-gas {
-        background-color: #fcfcfc;
-    }
-
-    #energia-nuclear {
-        background-color: #fcfcfc;
-    }  
-
+ 
 
 
 

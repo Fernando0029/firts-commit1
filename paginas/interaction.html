@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JS</title>
+    <style>
+        .title{
+            font-size: 10px;
+
+
+        }
+        .pintarRojo{
+            background-color: red;
+        }
+        #addPink{
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="title" class="pintarRojo">DOM</h1>
+
+    <button onclick="changeDom()">change to DOM</button>
+
+    <h2 id="addPink"">Aprndierón</h2>
+    <h2></h2>
+    <h2></h2>
+
+    <p class="parrafo">Lorem ipsum dolor sit amet.</p>
+    <p class="parrafo">Lorem ipsum dolor sit amet.</p>
+
+    <img id="imagen" src="../src/tanque (1).jpg" alt="img">
+
+
+    <script>
+        // Obtener elemento por id
+        const titulo = document.getElementById( 'title' );
+        // obtener elemento <tagname> []
+        const subtitulo = document.getElementsByTagName( 'h2' );
+        // obtener elemento por classname
+        const parrafo = document.getElementsByClassName('parrafo');
+        const h2 = 
+
+        titulo.classList.remove('pintarRojo')
+        // queryselector('# , .')
+        const imagen = document.querySelector('#imagen');
+
+        imagen.src = "../src/tanque (2).jpg"
+
+        parrafo[0].style.fontsize ="304px";
+        parrafo[1].style.color = 'blue';
+
+        //cambiar titulo
+        const changeDom = () =>{
+            titulo.innerHTML = 'D O M';
+        }
+
+        // cambiamos el contenido del elemnto
+        titulo.innerHTML = "DOCUMENT OBJECT MODEL";
+
+        subtitulo[0].innerHTML = 'soy el primer h2';
+        subtitulo[1].innerHTML = 'soy el segundo h2';
+        subtitulo[2].innerHTML = 'soy el tercero h2';
+
+
+        
+        
+    </script>
+</body>
+</html>
