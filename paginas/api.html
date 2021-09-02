@@ -7,17 +7,19 @@
 
 <link rel="stylesheet" href="../styles/api.css">
 
-    <title>Comidas Tipicas de México</title>
+    <title >Comidas Tipicas de México</title>
 </head>
 <main>
 <body class="todo">
-    <header>
+    <header id="titulo">
         <img id="logo" src="../src/bandera.png" alt="logo">
-        <h1>Comidas Tipicas de México</h1>
+        <h1 class="lol">Comidas y Bebidas Tipicas de México</h1>
     </header>
-    <h2 id="titulo">Comidas Tipicas de México</h2>
-    <section class="izq">
+<main id="main">
+    <section class="lado_izq">
         <details>
+            <summary class="l1">Comidas</summary>
+            
         <b class="comidas">Mole</b> <img src="../src/Mole.jpg" alt="Mole">
         <p>La cocina es una recompensa para el paladar y en México si estás celebrando algo probablemente el plato principal en la mesa será un buen Mole. En nuestro país podrás encontrar una gran variedad de ellos, algunos llegan a ser tan sofisticados que pueden contener un sinfín de ingredientes de diferentes partes del mundo que al mezclarlos correctamente toman una identidad indudablemente mexicana. Es una salsa que está viva y de verdad al ponerlo en tu boca literalmente se vuelve una gran fiesta para el paladar.</p>
         <b class="comidas">pozole</b> <img src="../src/El Pozole.jpg" alt="pozole">
@@ -54,28 +56,44 @@
         <p>Son exclusivas de Oaxaca y uno de sus platos más populares. Tlayuda es en realidad el nombre que se le da a la gran tortilla de maíz; las Tlayudas se pueden preparar sin carne (sencillas), o con cecina, res, chorizo​​, o a veces con otros ingredientes más extravagantes. Los ingredientes básicos pueden variar, pero en general un Tlayuda es preparada con lechuga, tomate, frijoles refritos, aguacate, queso (o quesillo) y luego guacamole y salsa de chile se añaden al gusto. Sin duda un manjar oaxaqueño.</p>
         <b class="comidas">Tacos</b> <img src="../src/Tacos.jpg" alt=" Tacos">
         <p>Por último y no menos importante encontramos el delicioso e histórico, taco, que forma parte de la diversidad cultural y gastronómica México. Ya sea al pastor, de carnitas, de longaniza, cochinita, barbacoa, birria, carne asada, pollo, chile, nopal con queso, chapulines, aguacate, entre otros más; el taco posee una increíble variedad que es para gustos de todos los amantes del maíz. Si bien se desconoce a ciencia cierta su origen, se cree que el taco nació como la base de una dieta olmeca gracias a los primeros vestigios del maíz nixtamalizado. </p>
-    </details>
+    
+        </details>
+        </section>
+    </main>
 
+    <main id="main2">
+        <section class="lado_der">
+            <details>
+                <summary class="l2">Bebidas</summary>
+                
+                    
+                    <b class="bebidas">tequila</b> <img src="../src/tequila.jpg" alt="tequila">
+                    <p>Claro que esta tenia que ser el lugar numero uno, considerado por muchos como una de las bebidas alcohólicas mejor manufacturadas del mundo, el tequila posee un proceso de elaboración muy interesante como su sabor. Jalisco es la cuna de la bebida mexicana más famosa del mundo, es por eso que aquí mismo se encuentra la Ruta del tequila.</p>
+                    <b class="bebidas">Mezcal</b> <img id="mezcal" src="../src/mezcal.jpg" alt="Mezcal">
+                    <p>Es una bebida tradicional de Oaxaca, cuenta la leyenda que un rayo cayo sobre una planta de agave, abriendo y cociendo su centro, los nativos percibieron el aroma del néctar que emanaba y bebieron el liquido que según ellos, sus dioses les habían regalado. Así nació el mezcal, elegido como el segundo más representativo de México. Aunque esta bebida sirve también como medicina tradicional, es también uno de los imprescindibles en las fiestas mexicanas, y es que como dice el dicho “para todo mal, un buen mezcal, y para todo bien, también”, ni como negarnos.</p>
+                    <b class="bebidas">Pulque</b> <img src="../src/Pulque.jpg" alt="Pulque">
+                    <p>Tiene un origen prehispánico, bebida tradicional de Hidalgo y parte centro del país, fue considerado por muchos años como exclusiva de las clases bajas, también fue muy importante durante la Conquista ya que los impuestos recaudados con venta y producción fueron esenciales para la economía de la Colonia.</p>
+                    <b class="bebidas">Pozol</b> <img src="../src/pozol.jpg" alt="Pozol">
+                    <p>Desde la época prehispánica, los mayas-chontales, lo llamaban “pochotl”, lo consumían para quitar la sed y calmar el hambre. Esta bebida, elaborada principalmente por mujeres era un alivio para los viajeros que encontraban en el pozol todo lo necesario para resistir el calor durante su largo camino. Proveniente principalmente de los campos de Tabasco y Chiapas donde el maíz y el cacao se convirtieron en la combinación ideal para ser una bebida típica del sureste mexicano.</p>
+            </details>
+            
+        </section>
 
-    </section>
+    </main>
 
+<script>
+const nombre = "Juan Fernando";
 
-    <h2 id="bebidas"> Bebidas Tipicas de México</h2>
-    <section class="der">
-        <details>
-        <b class="bebidas">tequila</b> <img src="../src/tequila.jpg" alt="tequila">
-        <p>Claro que esta tenia que ser el lugar numero uno, considerado por muchos como una de las bebidas alcohólicas mejor manufacturadas del mundo, el tequila posee un proceso de elaboración muy interesante como su sabor. Jalisco es la cuna de la bebida mexicana más famosa del mundo, es por eso que aquí mismo se encuentra la Ruta del tequila.</p>
-        <b class="bebidas">Mezcal</b> <img id="mezcal" src="../src/mezcal.jpg" alt="Mezcal">
-        <p>Es una bebida tradicional de Oaxaca, cuenta la leyenda que un rayo cayo sobre una planta de agave, abriendo y cociendo su centro, los nativos percibieron el aroma del néctar que emanaba y bebieron el liquido que según ellos, sus dioses les habían regalado. Así nació el mezcal, elegido como el segundo más representativo de México. Aunque esta bebida sirve también como medicina tradicional, es también uno de los imprescindibles en las fiestas mexicanas, y es que como dice el dicho “para todo mal, un buen mezcal, y para todo bien, también”, ni como negarnos.</p>
-        <b class="bebidas">Pulque</b> <img src="../src/Pulque.jpg" alt="Pulque">
-        <p>Tiene un origen prehispánico, bebida tradicional de Hidalgo y parte centro del país, fue considerado por muchos años como exclusiva de las clases bajas, también fue muy importante durante la Conquista ya que los impuestos recaudados con venta y producción fueron esenciales para la economía de la Colonia.</p>
-        <b class="bebidas">Pozol</b> <img src="../src/pozol.jpg" alt="Pozol">
-        <p>Desde la época prehispánica, los mayas-chontales, lo llamaban “pochotl”, lo consumían para quitar la sed y calmar el hambre. Esta bebida, elaborada principalmente por mujeres era un alivio para los viajeros que encontraban en el pozol todo lo necesario para resistir el calor durante su largo camino. Proveniente principalmente de los campos de Tabasco y Chiapas donde el maíz y el cacao se convirtieron en la combinación ideal para ser una bebida típica del sureste mexicano.</p>
-    </details>
+var edad = "17";
 
-    </section>
-</main>
+let estaCasado = "false"; //booleang
+let estaSoltero = "true";
 
-<script src="../paginas/js/json.js"></script>
+let cosasFovoritas = [ 'tacos', 'sandia', 'piña', 2, 2003, true, false, "¿hola chicos como estan?" ];
+
+alert("Hola me llamo " + nombre + " y tengo " + edad + " años" + " te doy la bienvenida a mi proyecto final");
+
+</script>
+
 </body>
 </html>
